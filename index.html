@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Panchayat Cashbook - Maintenance</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f1f5f9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      max-width: 520px;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #065f46;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 13px;
+      color: #64748b;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 22px;
+      color: #1e293b;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #475569;
+      line-height: 1.6;
+    }
+
+    .status {
+      margin: 20px 0;
+      padding: 15px;
+      background: #ecfdf5;
+      border-left: 4px solid #10b981;
+      border-radius: 8px;
+      font-size: 14px;
+      text-align: left;
+    }
+
+    .loader {
+      width: 35px;
+      height: 35px;
+      margin: 20px auto;
+      border: 4px solid #e2e8f0;
+      border-top: 4px solid #10b981;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      background: #10b981;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #059669;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #94a3b8;
+    }
+
+    .hindi {
+      margin-top: 25px;
+      padding-top: 15px;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    .hindi h2 {
+      font-size: 18px;
+      color: #1e293b;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="logo">🌿 Panchayat Cashbook</div>
+    <div class="subtitle">Digital Solution for Panchayat Accounting</div>
+
+    <h1>🔧 Website Under Maintenance</h1>
+
+    <p>
+      We are currently upgrading and improving the Panchayat Cashbook system 
+      to provide better performance and reliability.
+    </p>
+
+    <div class="status">
+      ✅ All your data is safe and secure<br>
+      🔄 System upgrade is in progress<br>
+      ⏳ Service may take more than 24 hours to resume fully
+    </div>
+
+    <div class="loader"></div>
+
+    <button onclick="location.reload()">Check Again</button>
+
+    <div class="footer">
+      Thank you for your patience and support 🙏
+    </div>
+
+    <div class="hindi">
+      <h2>🔧 वेबसाइट में सुधार कार्य जारी है</h2>
+
+      <p>
+        पंचायत कैशबुक सिस्टम को बेहतर बनाने के लिए अपडेट और सुधार का कार्य चल रहा है।
+        इस कारण सेवा अस्थायी रूप से उपलब्ध नहीं है।
+      </p>
+
+      <div class="status">
+        ✅ आपका डेटा पूरी तरह सुरक्षित है<br>
+        🔄 सिस्टम अपडेट जारी है<br>
+        ⏳ सेवा शुरू होने में 24 घंटे या उससे अधिक समय लग सकता है
+      </div>
+    </div>
+
+  </div>
+
+</body>
+  </html>
